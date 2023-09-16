@@ -1,0 +1,80 @@
+/* styles.css (or your preferred CSS-in-JS solution) */
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  .navbar-burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .navbar-burger span {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: #fff;
+  }
+  
+  .navbar-menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-start {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    color: #ff9900; /* Change to your desired hover color */
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 768px) {
+    .navbar-burger {
+      display: flex;
+    }
+  
+    .navbar-menu {
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+      transform: translateX(-100%);
+      transition: transform 0.3s;
+    }
+  
+    .is-active .navbar-menu {
+      transform: translateX(0);
+    }
+  
+    .navbar-item {
+      padding: 10px;
+    }
+  }
+  

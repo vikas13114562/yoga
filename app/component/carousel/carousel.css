@@ -1,0 +1,41 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quote-container {
+    width: 40%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: rgb(57, 56, 56);
+    font-weight: 500;
+    
+}
+.author {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.dot-container {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(232, 228, 228);
+}
