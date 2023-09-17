@@ -5,7 +5,7 @@ export default function ScheduleUtilts(props) {
         <div className="schedule-main">
         {props.isHeading ? (
           <div className="schedule-heading">
-            AISHWARYA'S WEEKLY TEACHING SCHEDULE
+            {`AISHWARYA'S WEEKLY TEACHING SCHEDULE`}
           </div>
         ) : (
           <>
