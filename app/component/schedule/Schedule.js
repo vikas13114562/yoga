@@ -8,12 +8,11 @@ export default function Schedule() {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     width: "100%",
-    height: "880px",
-    opacity: 1,
-    padding: "5% 15% 2% 15%",
+    
+    
   };
   return (
-    <div style={natureStyle}>
+    <div id='schedule' style={natureStyle}>
       {allData.map((data, index) => {
         return (
           <ScheduleUtilts

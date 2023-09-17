@@ -7,7 +7,7 @@ export default function About() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        width: "35%",
+        
         height:'500px',
         
       };

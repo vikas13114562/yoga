@@ -43,3 +43,56 @@ body{
 p{
     margin: 5px 0 5px 0;
 }
+
+.pic-container{
+    width: 35%;
+    
+}
+@media only screen and (max-width: 950px) {
+    .main-container {
+        padding: 0 10px;
+    }
+    .heading {
+        font-size: 1.25rem;
+        margin: 1rem 0 1rem 0;
+    }
+    #name{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .text-container{
+        top: 15%;
+        left: 20%;
+        width: 80%;
+    }
+    .p-container{
+        font-size: 12px;
+    }
+    .pic-container{
+        width: 45%;
+        opacity: 0.5;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    
+    .heading {
+        font-size: 1rem;
+        margin: 1rem 0 1rem 0;
+    }
+    #name{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .text-container{
+        
+        width: 90%;
+    }
+    
+    .pic-container{
+        width: 75%;
+        opacity: 0.4;
+    }
+  }
