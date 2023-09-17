@@ -17,14 +17,12 @@ export default function Insta() {
       <div className="dfc">FOLLOW ME ON INSTAGRAM</div>
       <div className="pics-container">
         {picArr.map((ele) => (
-          <Link key={ele} href={"https://instagram.com/upadhyay_aishu1626?igshid=MzRlODBiNWFlZA=="}>
-            <div
-              className="pics"
-              style={{
-                backgroundImage: `url('insta/0${ele}.jpg')`,
-              }}
-            ></div>
-          </Link>
+          <div
+            className="pics"
+            style={{
+              backgroundImage: `url('insta/0${ele}.jpg')`,
+            }}
+          ></div>
         ))}
       </div>
       <div className="dfc">
