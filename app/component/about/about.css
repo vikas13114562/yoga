@@ -1,0 +1,45 @@
+.main-container {
+    padding: 0 10%;
+}
+body{
+    background-color: white;
+}
+
+.dfc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.text-container{
+    padding: 10px;
+    border: 1.5px solid #FEDB9B;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 5px;
+}
+.about-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+#name{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+.p-container{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+p{
+    margin: 5px 0 5px 0;
+}
