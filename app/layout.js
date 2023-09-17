@@ -1,5 +1,6 @@
 import About from './component/about/About'
 import Carousel from './component/carousel/Carousel'
+import Insta from './component/instagram/Insta'
 import Navbar from './component/nav/navbar'
 import Schedule from './component/schedule/Schedule'
 import './globals.css'
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Carousel />
         <About />
         <Schedule />
+        <Insta />
         {children}
         </body>
     </html>
