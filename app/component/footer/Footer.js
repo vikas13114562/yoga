@@ -2,7 +2,8 @@ import "./footer.css";
 import { FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import Form from "./Form";
-import Logo from '../../../public/logo2.png'
+
+
 
 export default function Footer() {
   return (
@@ -40,7 +41,7 @@ export default function Footer() {
       >
         <h2>Sarvyog</h2>
         <p>An integration of body, mind, & soul.</p>
-        <img id='footer-logo' src={'logo2.png'} />
+        <img id='footer-logo' src={'logo2.png'} alt='logo' />
       </div>
     </div>
   );

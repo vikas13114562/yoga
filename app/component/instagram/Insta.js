@@ -20,8 +20,9 @@ export default function Insta() {
       <Heading name ='Follow me on Instagram' />
       <Border />
       <div className="pics-container">
-        {picArr.map((ele) => (
+        {picArr.map((ele,ind) => (
           <div
+          key={ind}
             className="pics"
             style={{
               backgroundImage: `url('insta/0${ele}.jpg')`,
