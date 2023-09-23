@@ -1,9 +1,9 @@
 .main-container {
     padding: 0 10%;
+    background-color: #ffffff;
+    color: black;
 }
-body{
-    background-color: white;
-}
+
 
 .dfc{
     display: flex;
@@ -17,7 +17,7 @@ body{
 }
 .text-container{
     padding: 10px;
-    border: 1.5px solid #FEDB9B;
+    border: 1.5px solid #E5D283;
     width: 70%;
     position: absolute;
     top: 30%;
@@ -28,17 +28,21 @@ body{
     display: flex;
     width: 100%;
     position: relative;
+    padding-top: 50px;
 }
 #name{
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 1.25rem;
+    color: #E5D283;
 }
 .p-container{
     font-size: 14px;
     font-weight: 300;
     font-style: normal;
     text-align: center;
+    color: black;
+    font-weight: 500;
 }
 p{
     margin: 5px 0 5px 0;
@@ -46,6 +50,8 @@ p{
 
 .pic-container{
     width: 35%;
+    border-radius: 10px;
+    opacity: 0.9;
     
 }
 @media only screen and (max-width: 950px) {

@@ -1,0 +1,106 @@
+/* components/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  padding: 10px;
+  font-weight: 500;
+  color: #E5D283;
+}
+
+.companyName {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: start;
+  gap: 20px;
+  
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.menuIcon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #E5D283;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li {
+  text-decoration: none;
+  
+  font-weight: bold;
+}
+
+.navLinks li :hover {
+  text-decoration: underline;
+}
+
+.show {
+  display: flex;
+}
+
+.cross .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.cross .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.cross .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: flex;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+
+    padding: 10px;
+    z-index: 1;
+    transition: 0.4s;
+    display: none;
+  }
+
+  .navLinks li {
+    margin: 10px 0;
+    z-index: 111;
+  }
+
+  .show {
+    display: flex;
+  }
+}

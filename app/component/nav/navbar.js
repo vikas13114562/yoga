@@ -1,52 +1,57 @@
 "use client"; // This is a client component 
+
 import React, { useState } from 'react';
 import Link from 'next/link';
-import './nav.css'
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <nav className="navbar">
-      <div className="container">
-        <div className="navbar-brand">
-          {/* <Link href="/">
-            <a>
-              <img src="/your-logo.png" alt="Logo" className="logo" />
-            </a>
-          </Link> */}
-          <button className={`navbar-burger ${isOpen ? 'is-active' : ''}`} onClick={toggleNavbar}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-        <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
-          <div className="navbar-start">
-            <Link href="/">
-              <div className="navbar-item">Home</div>
-            </Link>
-            <Link href="/about">
-              <div className="navbar-item">About</div>
-            </Link>
-            <Link href="/services">
-              <div className="navbar-item">Services</div>
-            </Link>
-            <Link href="/portfolio">
-              <div className="navbar-item">Portfolio</div>
-            </Link>
-            <Link href="/contact">
-              <div className="navbar-item">Contact</div>
-            </Link>
-          </div>
-        </div>
+    <nav className={styles.navbar}>
+      <div className={styles.logo}>
+        <Link href="/">
+         
+            <img src="logo1.png" alt="Company Logo" />
+            
+          
+        </Link>
+        <div className={styles.companyName}>Sarvyog</div>
       </div>
+      <div className={`${styles.menuIcon} ${isMenuOpen ? styles.cross : ''}`} onClick={toggleMenu}>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+      </div>
+      <ul className={`${styles.navLinks} ${isMenuOpen ? styles.show : ''}`}>
+        <li>
+          <Link href="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link href="/courses">
+          Courses 
+          </Link>
+        </li>
+        <li>
+          <Link href="/schedule">
+          Class Schedule
+          </Link>
+        </li>
+        <li>
+          <Link href="/blog">
+            Blog
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };
 
 export default Navbar;
+

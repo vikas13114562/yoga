@@ -1,3 +1,5 @@
+import Border from "../utils/Border";
+import Heading from "../utils/Heading";
 import "./about.css";
 
 export default function About() {
@@ -13,7 +15,8 @@ export default function About() {
       };
   return (
     <div className="main-container">
-      <div className="dfc heading">About Me</div>
+      <Heading name ='About Me' />
+      <Border />
       <div className="about-container">
       <div className="pic-container" style={picStyle}></div>
       <div className="text-container">

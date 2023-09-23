@@ -3,7 +3,7 @@ import ScheduleUtilts from "./ScheduleUtilts";
 import './schedule.css'
 export default function Schedule() {
   const natureStyle = {
-    backgroundImage: `url('nature.jpg')`,
+    // backgroundImage: `url('nature.jpg')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

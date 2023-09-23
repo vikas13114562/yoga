@@ -1,0 +1,75 @@
+.footer{
+    display: flex;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+
+
+    color: #E5D283;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.allLink{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.allLink :hover{
+    cursor: pointer;
+    color:green;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    border: 0.1px solid rgb(189, 189, 125);
+    background-color: black;
+    height: 2.25rem;
+    padding-left: 10px;
+}
+.main-head{
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: 10px;
+    border: 0.25px solid rgb(255, 255, 255) ;
+    border-radius: 20px;
+    background-color: rgba(189, 189, 130, 0.8);
+}
+
+.tag{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer-logo {
+    width: 100px;
+    height: 100px;
+}

@@ -1,3 +1,6 @@
+import { Btn } from "../utils/Allbtn";
+import Border from "../utils/Border";
+import Heading from "../utils/Heading";
 import "./insta.css";
 import Link from "next/link";
 
@@ -14,7 +17,8 @@ export default function Insta() {
           }}
         ></div>
       </div> */}
-      <div className="dfc">FOLLOW ME ON INSTAGRAM</div>
+      <Heading name ='Follow me on Instagram' />
+      <Border />
       <div className="pics-container">
         {picArr.map((ele) => (
           <div
@@ -31,7 +35,7 @@ export default function Insta() {
             "https://instagram.com/upadhyay_aishu1626?igshid=MzRlODBiNWFlZA=="
           }
         >
-          <div className="dfc insta-btn">Follow</div>
+          <Btn name='Follow Me'  width={'140px'} />
         </Link>
       </div>
     </div>

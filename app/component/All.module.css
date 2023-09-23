@@ -1,0 +1,37 @@
+.border{
+    background-color: #E5D283;
+    height: 2.5px;
+    border-radius: 2px;
+}
+
+.borderContainer {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 0% 15%;
+    background-color: white;
+}
+
+.allBtn {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #E5D283;
+    color: #E5D283;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.mainHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 25px 0px 20px 0px;
+    color: black;
+}

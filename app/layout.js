@@ -1,8 +1,9 @@
 import About from './component/about/About'
 import Carousel from './component/carousel/Carousel'
+import Footer from './component/footer/Footer'
 import Insta from './component/instagram/Insta'
 import Navbar from './component/nav/navbar'
-import Schedule from './component/schedule/Schedule'
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -19,10 +20,12 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <Carousel />
-        <About />
-        <Schedule />
-        <Insta />
+        
         {children}
+        <About />
+        
+        <Insta />
+        <Footer />
         </body>
     </html>
   )

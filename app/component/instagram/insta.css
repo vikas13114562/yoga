@@ -5,16 +5,18 @@
 }
 
 .insta-container {
-  margin: 4rem 0px;
+  
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  
+  background-color: #ffffff;
+  color: black;
 }
 
 .pics-container {
   display: flex;
   width: 100%;
- 
+  padding: 50px 0px 20px 0px;
 }
 .pics {
   background-size: cover;
