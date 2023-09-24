@@ -20,7 +20,7 @@
     border: 1.5px solid #E5D283;
     width: 70%;
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 30%;
     border-radius: 5px;
 }
@@ -31,15 +31,15 @@
     padding-top: 50px;
 }
 #name{
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 1.45rem;
+    font-weight: 600;
     margin-bottom: 1.25rem;
     color: #E5D283;
 }
 .p-container{
-    font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
     color: black;
     font-weight: 500;

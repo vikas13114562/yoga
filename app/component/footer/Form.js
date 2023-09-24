@@ -1,3 +1,4 @@
+import { Btn } from '../utils/Allbtn'
 import './footer.css'
 
 export default function Form() {
@@ -9,9 +10,7 @@ export default function Form() {
             <input name='name' required placeholder='Name' />
             <input name='email' required placeholder='Email' />
             <input name='phone' required placeholder='Phone' />
-            <div className='submit-btn'>
-                Submit
-            </div>
+            <Btn name="Submit" />
             
         </div>
     )

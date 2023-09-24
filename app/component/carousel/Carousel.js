@@ -55,19 +55,19 @@ const Carousel = () => {
       <div className="dot-container">
         <div
           className="dot"
-          style={{ backgroundColor: currentSlide === 1 ? "green" : "" }}
+          style={{ backgroundColor: currentSlide === 1 ? "#C70039" : "" }}
         ></div>
         <div
           className="dot"
-          style={{ backgroundColor: currentSlide === 2 ? "green" : "" }}
+          style={{ backgroundColor: currentSlide === 2 ? "#EE9322" : "" }}
         ></div>
         <div
           className="dot"
-          style={{ backgroundColor: currentSlide === 3 ? "green" : "" }}
+          style={{ backgroundColor: currentSlide === 3 ? "#F4E869" : "" }}
         ></div>
         <div
           className="dot"
-          style={{ backgroundColor: currentSlide === 4 ? "green" : "" }}
+          style={{ backgroundColor: currentSlide === 4 ? "#E55604" : "" }}
         ></div>
       </div>
     </div>
