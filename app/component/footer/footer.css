@@ -1,90 +1,96 @@
-.footer{
-    display: flex;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: #2b4162;
-    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+.footer {
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
 
-
-    color: #E5D283;
-    background-size: cover;
+  color: #e5d283;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   justify-content: space-around;
 }
 
-.allLink{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    
-    justify-content: space-around;
-    font-size: 1.5rem;
+.allLink {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+  justify-content: space-around;
+  font-size: 1.5rem;
 }
 
-.allLink :hover{
-    cursor: pointer;
-    color:rgb(185, 65, 105);
+.allLink :hover {
+  cursor: pointer;
+  color: rgb(185, 65, 105);
 }
 .contact {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.form-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-input{
-    border: 0.1px solid rgb(189, 189, 125);
-    background-color: black;
-    height: 2.25rem;
-    padding-left: 10px;
+.input {
+  border: 0.1px solid rgb(189, 189, 125);
+  background-color: black;
+  height: 2.25rem;
+  padding: 10px;
+  border-radius: 5px;
 }
-.main-head{
-    font-size: 1.25rem;
-    margin-bottom: 5px;
-    font-weight: 700;
+.main-head {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
 
-
-
-.tag{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.tag {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: start;
+  align-items: center;
 }
 
 #footer-logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.copy {
+  position: relative;
+  bottom: -8px;
+  
 }
 
 @media only screen and (max-width: 700px) {
-    .tag{
-        display: none;
-    }
+  .tag {
+    display: none;
   }
+}
 
-  @media only screen and (max-width: 400px) {
-    .footer{
-        padding: 10px;
-        justify-content: space-between;
-    }
-    input{
-        width: 150px;
-        height: 2rem;
-        padding-left: 10px;
-    }
-    .allLink{
-        
-        font-size: 1rem;
-    }
-    .main-head{
-        font-size: 1rem;
-    }
+@media only screen and (max-width: 400px) {
+  .footer {
+    padding: 10px;
+    justify-content: space-between;
   }
+  input {
+    width: 150px;
+    height: 2rem;
+    padding-left: 10px;
+  }
+  .allLink {
+    font-size: 1rem;
+  }
+  .main-head {
+    font-size: 1rem;
+  }
+}

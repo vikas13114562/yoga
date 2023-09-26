@@ -53,7 +53,7 @@
 
 .member{
     text-decoration: underline;
-    font-weight: 350;
+    font-weight: 500;
 }
 .member:hover {
     color: rgb(185, 65, 105);

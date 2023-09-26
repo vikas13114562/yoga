@@ -8,6 +8,9 @@
   padding: 10px 15px 10px 15px;
   font-weight: 500;
   color: #E5D283;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .companyName {
@@ -105,4 +108,8 @@
   .show {
     display: flex;
   }
+}
+
+.active {
+  color:rgb(185, 65, 105);
 }

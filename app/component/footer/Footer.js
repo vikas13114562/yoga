@@ -3,8 +3,6 @@ import { FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import Form from "./Form";
 
-
-
 export default function Footer() {
   return (
     <div className="footer">
@@ -17,31 +15,28 @@ export default function Footer() {
           </div>
         </div>
         <div>
-        
-        <div className="allLink">
-          <Link href="https://www.instagram.com/">
-            <FaInstagram />
-          </Link>
-          <Link href="https://www.youtube.com/">
-            <FaYoutube />
-          </Link>
-          <Link href="https://www.facebook.com/">
-            <FaFacebook />
-          </Link>
-          <Link href="https://twitter.com/">
-            <FaTwitter />
-          </Link>
+          <div className="allLink">
+            <Link href="https://www.instagram.com/">
+              <FaInstagram />
+            </Link>
+            <Link href="https://www.youtube.com/">
+              <FaYoutube />
+            </Link>
+            <Link href="https://www.facebook.com/">
+              <FaFacebook />
+            </Link>
+            <Link href="https://twitter.com/">
+              <FaTwitter />
+            </Link>
+          </div>
         </div>
       </div>
-      </div>
-      
+
       <Form />
-      <div className="tag" 
-        
-      >
-        <h2>Sarvyog</h2>
+      <div className="tag">
+        <img id="footer-logo" src={"logo2.png"} alt="logo" />
         <p>An integration of body, mind, & soul.</p>
-        <img id='footer-logo' src={'logo2.png'} alt='logo' />
+        <div className="copy">&copy; {new Date().getFullYear()} SARVYOG</div>
       </div>
     </div>
   );

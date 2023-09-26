@@ -1,5 +1,5 @@
 "use client"; // This is a client component 
-
+import {usePathname} from 'next/navigation'
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
@@ -7,7 +7,8 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  ;
+  const path = usePathname()
+  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -50,22 +51,22 @@ const Navbar = () => {
         <div className={styles.bar}></div>
       </div>
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.show : ''}`}>
-        <li>
+        <li className={path === '/' ? styles.active : ''}>
           <Link href="/">
             Home
           </Link>
         </li>
-        <li>
+        <li className={path === '/courses' ? styles.active : ''}>
           <Link href="/courses">
           Courses 
           </Link>
         </li>
-        <li>
+        <li className={path === '/schedule' ? styles.active : ''}>
           <Link href="/schedule">
           Class Schedule
           </Link>
         </li>
-        <li>
+        <li className={path === '/blog' ? styles.active : ''}>
           <Link href="/blog">
             Blog
           </Link>

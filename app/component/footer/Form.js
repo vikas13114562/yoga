@@ -7,9 +7,9 @@ export default function Form() {
             <div className='main-head'>
                 Say Hello
             </div>
-            <input name='name' required placeholder='Name' />
-            <input name='email' required placeholder='Email' />
-            <input name='phone' required placeholder='Phone' />
+            <input className='input' name='name' required placeholder='Name' />
+            <input className='input' name='email' required placeholder='Email' />
+            <input className='input' name='phone' required placeholder='Phone' />
             <Btn name="Submit" />
             
         </div>
