@@ -1,9 +1,15 @@
 
+'use client'
 import { Btn } from './Allbtn'
 import Border from './Border'
 import styles from './Course.module.css'
+import { useRouter } from 'next/navigation'
 export default function CoursesDetails({data,index}) {
-    
+    const router = useRouter()
+
+    function handleClick(path) {
+        router.push(`/courses/${path}`)
+    }
     return (<>
         <Border />
         <div className={styles.container}
@@ -21,7 +27,9 @@ export default function CoursesDetails({data,index}) {
                         <p key={ind}>{para}</p>
                     )
                 })}
-                <Btn name={'Learn More'}/>
+                <Btn name={'Learn More'} onClick = {()=>{
+                    handleClick(data[index].path)
+                }} />
                 </div>
             </div>
             <div className={styles.imgContainer}>

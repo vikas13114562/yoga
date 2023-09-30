@@ -49,6 +49,18 @@
     color:#E5D283;
 }
 
+.mainContainer{
+    color:black;
+}
+
+.accordionContainer {
+    display: flex;
+    
+    flex-direction: column;
+    padding: 10px;
+    margin: 40px 0px 40px 0px;   
+}
+
 @media only screen and (max-width: 800px) {
     .detailText{
        
