@@ -72,5 +72,8 @@
     .imgContainer{
         display: none;
     }
+    .list{
+        max-width: 95%;
+    }
     
   }

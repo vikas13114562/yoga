@@ -7,7 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Collapse from "@mui/material/Collapse";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
-import StarBorder from "@mui/icons-material/StarBorder";
+import style from './Course.module.css'
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
@@ -20,7 +20,8 @@ export default function CustomList({ data }) {
 
   return (
     <List
-      sx={{ width: "100%", maxWidth: '50%', bgcolor: "background.paper" }}
+        className={style.list}
+      sx={{ width: "100%", maxWidth: '60%', bgcolor: "background.paper" }}
       component="nav"
       aria-labelledby="nested-list-subheader"
       subheader={
@@ -32,7 +33,7 @@ export default function CustomList({ data }) {
     >
       {typeof data === "string" ? (
         <ListItemButton>
-          <ListItemIcon sx={{color:'rgb(185,65,105)'}}>
+          <ListItemIcon  sx={{color:'rgb(185,65,105)'}}>
             <SelfImprovementIcon />
           </ListItemIcon>
           <ListItemText sx={{color:'black',
@@ -50,7 +51,7 @@ export default function CustomList({ data }) {
             {open ? <ExpandLess /> : <ExpandMore />}
           </ListItemButton>
           <Collapse in={open} timeout="auto" unmountOnExit>
-            <List component="div" disablePadding>
+            <List className={style.list} component="div" disablePadding >
               {data.subsubtitle.map((ele, ind) => {
                 return (
                   <ListItemButton sx={{ pl: 6 }} key={ind}>
