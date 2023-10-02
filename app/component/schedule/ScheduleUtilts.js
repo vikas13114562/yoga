@@ -1,4 +1,5 @@
 
+import FormDialog from '../utils/FormDiolog'
 import './schedule.css'
 export default function ScheduleUtilts(props) {
     return (
@@ -14,8 +15,8 @@ export default function ScheduleUtilts(props) {
                 <div className="time">{props.time}</div>
                 <div className="category">{props.category}</div>
               </div>
-
-              <div className="member">Become a Member!</div>
+              <FormDialog />
+              {/* <div className="member">Become a Member!</div> */}
             </div>
             <div className="day">{props.day}</div>
           </>

@@ -61,6 +61,27 @@
     margin: 40px 0px 40px 0px;   
 }
 
+.formDialogContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 90%;
+    gap: 5px;
+}
+.member{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.member:hover {
+    color: rgb(185, 65, 105);
+    cursor: pointer;
+
+  }
+
+  .error {
+    color:red;
+  }
+
 @media only screen and (max-width: 800px) {
     .detailText{
        
