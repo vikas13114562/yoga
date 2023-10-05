@@ -43,7 +43,7 @@ export default function CustomList({ data }) {
         </ListItemButton>
       ) : (
         <>
-          <ListItemButton onClick={handleClick}>
+          <ListItemButton onClick={handleClick} sx={{width:'max-content'}}>
           <ListItemIcon sx={{color:'rgb(185,65,105)'}}>
             <SelfImprovementIcon />
           </ListItemIcon>
@@ -54,7 +54,7 @@ export default function CustomList({ data }) {
             <List className={style.nestedList} component="div" disablePadding >
               {data.subsubtitle.map((ele, ind) => {
                 return (
-                  <ListItemButton sx={{ pl: 6 }} key={ind}>
+                  <ListItemButton sx={{ pl: 6,width:'max-content' }} key={ind}>
                     <ListItemIcon sx={{color:'rgb(185,65,105)',
                         fontSize:'5px'
                         }}>
