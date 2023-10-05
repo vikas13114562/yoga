@@ -51,7 +51,7 @@ export default function CustomList({ data }) {
             {open ? <ExpandLess /> : <ExpandMore />}
           </ListItemButton>
           <Collapse in={open} timeout="auto" unmountOnExit>
-            <List className={style.list} component="div" disablePadding >
+            <List className={style.nestedList} component="div" disablePadding >
               {data.subsubtitle.map((ele, ind) => {
                 return (
                   <ListItemButton sx={{ pl: 6 }} key={ind}>

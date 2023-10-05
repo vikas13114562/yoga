@@ -81,6 +81,9 @@
   .error {
     color:red;
   }
+  .nestedList {
+    width:90%;
+  }
 
 @media only screen and (max-width: 800px) {
     .detailText{
@@ -96,5 +99,8 @@
     .list{
         max-width: 95%;
     }
+    .nestedList {
+        width:95%;
+      }
     
   }

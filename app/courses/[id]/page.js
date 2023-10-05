@@ -6,7 +6,7 @@ import {courseDetailsData} from '../../component/schedule/data'
 import Border from '@/app/component/utils/Border'
 
 export default function Page({ params }) {
-    const pathName = params.name
+    const pathName = params.id
    
     return <div className={style.mainContainer}>
       <div className={styles.mainHeading}>{courseDetailsData[pathName]?.mainHeading ?? "Course"}</div>
