@@ -38,7 +38,7 @@ const Carousel = () => {
     return () => clearInterval(interval);
   }, [currentSlide]);
   const divStyle = {
-    backgroundImage: `url('caroselImg/0${currentSlide}.jpg')`,
+    backgroundImage: `url('/caroselImg/0${currentSlide}.jpg')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
