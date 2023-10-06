@@ -4,6 +4,7 @@ import styles from '../../component/All.module.css'
 import CourseAccordion from '@/app/component/utils/CourseAccordion'
 import {courseDetailsData} from '../../component/schedule/data'
 import Border from '@/app/component/utils/Border'
+import FormDialog from '@/app/component/utils/FormDiolog'
 
 export default function Page({ params }) {
     const pathName = params.id
@@ -22,6 +23,9 @@ export default function Page({ params }) {
         })
       }
         </div>
+      {
+        courseDetailsData[pathName]?.isApply ? <FormDialog />:<></>
+      }
       
     </div>
   }

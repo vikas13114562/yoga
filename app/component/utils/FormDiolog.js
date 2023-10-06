@@ -163,6 +163,7 @@ export default function FormDialog() {
               <MenuItem value={"Prenatal Yoga"}>Prenatal Yoga</MenuItem>
               <MenuItem value={"Ashtanga Yoga"}>Ashtanga Yoga</MenuItem>
               <MenuItem value={"Hatha Yoga"}>Hatha Yoga</MenuItem>
+              <MenuItem value={"Nutrition"}>Nutrition</MenuItem>
             </Select></div>
             <p className={style.error}>{error}</p>
           </div>

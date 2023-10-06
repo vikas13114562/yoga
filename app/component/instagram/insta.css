@@ -61,10 +61,14 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .image-container {
-    flex: 0 0 30%; 
-    
+    flex: 0 0 30%;   
+  }
+}
+@media (max-width: 500px) {
+  .image-container {
+    flex: 0 0 35%;   
   }
 }
 
