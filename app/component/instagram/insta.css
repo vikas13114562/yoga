@@ -8,46 +8,68 @@
   
   display: flex;
   flex-direction: column;
-  
   background-color: #ffffff;
   color: black;
 }
 
-.pics-container {
-  display: flex;
-  width: 100%;
-  padding: 50px 0px 20px 0px;
-}
-.pics {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 25%;
-  height: 300px;
-  cursor: pointer;
+
+
+/* ImageCarousel.css */
+.scrolling-container {
+  width: 100%; /* Adjust the width to display 4 images at a time */
+  overflow: hidden;
+  padding: 25px 0px;
 }
 
-.pics:hover{
+.scrolling-content {
+  display: flex;
+  gap: 8px;
+  animation: scroll 15s linear infinite; /* Adjust the duration as needed */
+}
+
+.image-container {
+  flex: 0 0 25%; 
+  height: 250px;
+  overflow: hidden;
+}
+.insta-pic {
+  border-radius: 4px;
+  border: 1px solid red;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-25%);
+  }
+  40% {
+    transform: translateX(-50%);
+  }
+  60% {
+    transform: translateX(-75%);
+  }
+  80% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    flex: 0 0 55%; 
+  
+  }
+}
+
+
+.insta-pics:hover{
     background-color: black;
     opacity: .2;
 }
 
-.instaPic{
-    background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
 
-.insta-btn{
-    width: 100px;
-    height: 40px;
-    border: 1px solid black;
-    background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(198,18,18,1) 50%, rgba(252,176,69,1) 100%);
-    border-radius: 10px;
-    cursor: pointer;
-    
-}
+
