@@ -23,9 +23,10 @@ export default function Page({ params }) {
         })
       }
         </div>
+        <div style={{marginLeft:'20px'}}>
       {
-        courseDetailsData[pathName]?.isApply ? <FormDialog />:<></>
-      }
+        courseDetailsData[pathName]?.isApply ? <FormDialog text='Join Us Today' />:<></>
+      }</div>
       
     </div>
   }
