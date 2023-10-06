@@ -3,6 +3,7 @@ import {usePathname} from 'next/navigation'
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
+import Image from 'next/image';
 
 
 const Navbar = () => {
@@ -32,18 +33,18 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">
-         
-            <img src="logo1.png" alt="Company Logo" />
+            <Image src={'/logo1.png'} alt='logo' width={250} height={52} />
+            {/* <img src="logo1.png" alt="Company Logo" /> */}
             
           
         </Link>
-        <div className={styles.companyName}>
+        {/* <div className={styles.companyName}>
           {
             getChColor("SARVYOG").map((ele,ind)=>(
               <span key={ind} style={{color:ele.color,marginRight:'1.5px'}}>{ele.ch}</span>
             ))
           }
-        </div>
+        </div> */}
       </div>
       <div className={`${styles.menuIcon} ${isMenuOpen ? styles.cross : ''}`} onClick={toggleMenu}>
         <div className={styles.bar}></div>

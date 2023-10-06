@@ -32,7 +32,7 @@ export default function CustomList({ data }) {
       }
     >
       {typeof data === "string" ? (
-        <ListItemButton>
+        <ListItemButton  sx={{width:'max-content'}}>
           <ListItemIcon  sx={{color:'rgb(185,65,105)'}}>
             <SelfImprovementIcon />
           </ListItemIcon>
