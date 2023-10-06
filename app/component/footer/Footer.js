@@ -16,16 +16,24 @@ export default function Footer() {
         </div>
         <div>
           <div className="allLink">
-            <Link href="https://www.instagram.com/">
+            <Link
+              href={
+                "https://instagram.com/upadhyay_aishu1626?igshid=MzRlODBiNWFlZA=="
+              }
+              target="_blank"
+            >
               <FaInstagram />
             </Link>
-            <Link href="https://www.youtube.com/">
+            <Link
+              href="https://youtube.com/@sarvyog7426?si=Dz0MKc2UX09eJctL"
+              target="_blank"
+            >
               <FaYoutube />
             </Link>
-            <Link href="https://www.facebook.com/">
+            <Link href="#">
               <FaFacebook />
             </Link>
-            <Link href="https://twitter.com/">
+            <Link href="#">
               <FaTwitter />
             </Link>
           </div>

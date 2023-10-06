@@ -79,6 +79,17 @@ export const courseData = {
     direction: "row-reverse",
     path: "hatha-yoga",
   },
+  4: {
+    heading: "Nutrition Course",
+    text: [
+      "A transformative journey towards understanding the intricacies of nourishment, health, and well-being. As a professional certified dietitian, I am thrilled to offer you an enriching and empowering learning experience that goes beyond the basics of nutrition.",
+      "Our Nutrition Course is made with lots of care to help you understand everything about food and health.It uses simple and practical lessons based on real facts.",
+      "No matter if you just like staying healthy, want to be a nutrition expert, or simply want to eat better this course is perfect for you. it’s made to fit what you want to learn",
+    ],
+    imgUrl: "hatha.jpg",
+    direction: "row",
+    path: "nutrition",
+  },
 };
 
 export const courseDetailsData = {
@@ -284,4 +295,85 @@ export const courseDetailsData = {
       },
     ],
   },
+  "nutrition": {
+    mainHeading: "Nutrition Course",
+    heading: [
+      
+      {
+        title: "Course Highlights",
+        subtitle: [
+          {
+            title: "Understanding Nutrients",
+            subsubtitle: [
+              " Delve into the essential macronutrients and micronutrients,exploring their functions, sources, and the impact they have on overall health",
+            ],
+          },
+          "Dietary Guidelines:",
+          "Meal Planning",
+          "Specialized Diets",
+          "Nutrition and Health",
+          "Behavioural Change",
+          
+        ],
+      },
+      {
+        title: "Course Features",
+        subtitle: [
+          "Interactive Classes:",
+          "Practical Assignments",
+          
+        ],
+      },
+     
+    ],
+  },
 };
+
+export const instaPicArr = [
+  {
+    path:'/insta/Slide1.jpg',
+    link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide2.jpg',
+    link:'https://www.instagram.com/reel/Cr969IUMDis/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide3.jpg',
+    link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide4.jpg',
+    link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide5.jpg',
+    link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide6.jpg',
+    link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide7.jpg',
+    link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide8.jpg',
+    link:'https://www.instagram.com/reel/Cr969IUMDis/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide9.jpg',
+    link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide10.jpg',
+    link:'https://www.instagram.com/reel/Cr969IUMDis/?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    path:'/insta/Slide11.jpg',
+    link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
+  },
+  
+
+]

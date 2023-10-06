@@ -6,18 +6,19 @@ import "./insta.css";
 import Link from "next/link";
 
 export default function Insta() {
-  const picArr = [1, 2, 3, 4,1,2,3,4,1];
+  
 
   return (
     <div className="insta-container">
       <Heading name="Follow me on Instagram" />
       <Border />
-      <ImageCarousel images={picArr} />
+      <ImageCarousel />
       <div className="dfc">
         <Link
           href={
             "https://instagram.com/upadhyay_aishu1626?igshid=MzRlODBiNWFlZA=="
           }
+          target="_blank"
         >
           <Btn name="Follow Me" width={"140px"} />
         </Link>

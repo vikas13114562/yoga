@@ -6,7 +6,7 @@ import Heading from "../component/utils/Heading";
 
 export default function Page() {
     
-    let array = [0,1,2,3]
+    let array = [0,1,2,3,4]
     return (<div>
         <Heading name='Courses' />
         
