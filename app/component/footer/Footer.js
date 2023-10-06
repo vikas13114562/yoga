@@ -42,7 +42,7 @@ export default function Footer() {
 
       <Form />
       <div className="tag">
-        <img id="footer-logo" src={"logo2.png"} alt="logo" />
+        <img id="footer-logo" src={"/logo2.png"} alt="logo" />
         <p>An integration of body, mind, & soul.</p>
         <div className="copy">&copy; {new Date().getFullYear()} SARVYOG</div>
       </div>
