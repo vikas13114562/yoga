@@ -21,7 +21,7 @@ export default function CustomList({ data }) {
   return (
     <List
         className={style.list}
-      sx={{ width: "100%", maxWidth: '60%', bgcolor: "background.paper" }}
+      sx={{ width: "100%",  bgcolor: "background.paper" }}
       component="nav"
       aria-labelledby="nested-list-subheader"
       subheader={
