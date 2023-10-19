@@ -26,7 +26,7 @@
 }
 .about-container {
     display: flex;
-    width: 100%;
+    width: 99%;
     position: relative;
     padding-top: 50px;
 }
@@ -38,7 +38,6 @@
 }
 .p-container{
     font-size: 15px;
-    font-weight: 400;
     font-style: italic;
     text-align: center;
     color: black;
@@ -69,7 +68,7 @@ p{
     }
     .text-container{
         top: 15%;
-        left: 20%;
+        left: 18%;
         width: 80%;
     }
     .p-container{
@@ -93,12 +92,12 @@ p{
         margin-bottom: 1rem;
     }
     .text-container{
-        
-        width: 90%;
+        left: 5%;
+        width: 95%;
     }
     
     .pic-container{
-        width: 75%;
-        opacity: 0.4;
+        width: 85%;
+        opacity: 0.2;
     }
   }
