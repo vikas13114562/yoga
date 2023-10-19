@@ -332,47 +332,47 @@ export const courseDetailsData = {
 
 export const instaPicArr = [
   {
-    path:'/insta/Slide1.jpg',
+    path:'/instagram/Slide1.jpg',
     link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide2.jpg',
+    path:'/instagram/Slide2.jpg',
     link:'https://www.instagram.com/reel/Cr969IUMDis/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide3.jpg',
+    path:'/instagram/Slide3.jpg',
     link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide4.jpg',
+    path:'/instagram/Slide4.jpg',
     link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide5.jpg',
+    path:'/instagram/Slide5.jpg',
     link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide6.jpg',
+    path:'/instagram/Slide6.jpg',
     link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide7.jpg',
+    path:'/instagram/Slide7.jpg',
     link:'https://www.instagram.com/reel/Cob3k1_A_mR/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide8.jpg',
+    path:'/instagram/Slide8.jpg',
     link:'https://www.instagram.com/reel/Cr969IUMDis/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide9.jpg',
+    path:'/instagram/Slide9.jpg',
     link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide10.jpg',
+    path:'/instagram/Slide10.jpg',
     link:'https://www.instagram.com/reel/Cr969IUMDis/?igshid=MzRlODBiNWFlZA==',
   },
   {
-    path:'/insta/Slide11.jpg',
+    path:'/instagram/Slide11.jpg',
     link:'https://www.instagram.com/reel/CsMH3XyteFl/?igshid=MzRlODBiNWFlZA==',
   },
   
