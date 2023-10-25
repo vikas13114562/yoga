@@ -70,7 +70,7 @@ const Navbar = () => {
               >
                 <li onClick={toggleMenu2}>
                   <Link href="/courses/yin-yoga">Yin Yoga</Link></li>
-                <li>
+                <li onClick={toggleMenu2}>
                   <Link href="/courses/prenatal-yoga">Prenatal Yoga</Link></li>
                 <li onClick={toggleMenu2}>
                   <Link href="/courses/ashtanga-yoga">Ashtanga Yoga</Link></li>
