@@ -107,6 +107,12 @@
   .logo-tag {
     width: 45%;
   }
+  #subMenuItem {
+    top: 10px;
+    left: 120px;
+    font-size: 14px;
+    width: 140px;
+  }
 }
 
 .active {
@@ -116,6 +122,34 @@
 .logo-tag {
   width: 36%;
 }
+#courseId {
+  position: relative;
+  
+}
+.courseLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+#subMenuItem {
+  position: absolute;
+  top: 36px;
+  padding: 10px 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgb(185, 65, 105) 0px 0px 0px 1px;
+  border-radius: 4px;
+  z-index: 15;
+  background-color: white;
+  font-weight: 500;
+  font-size: 16px;
+  width: 150px;
+}
+#subMenuItem li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
 
 @media (max-width: 500px) {
   .logo-tag {

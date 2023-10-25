@@ -10,7 +10,8 @@ function ImageCarousel() {
       <div className="scrolling-content">
         {instaPicArr.map((ele, index) => (
           <div className="image-container" key={index}>
-            
+               
+            <Link href={ele.link} target="_blank">
               <Image
                 className="insta-pic"
                 src={ele.path}
@@ -18,14 +19,13 @@ function ImageCarousel() {
                 width={300}
                 height={200}
               />
-            
-            <Link href={ele.link} target="_blank">
-            <div class="overlay">
+            </Link>
+            {/* <div class="overlay">
               <div class="text">
                 <span class="likes">100 Likes</span>
                 <span class="comments">20 Comments</span>
               </div>
-            </div></Link>
+            </div> */}
           </div>
         ))}
       </div>

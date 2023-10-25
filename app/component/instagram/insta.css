@@ -26,13 +26,16 @@
   animation: scroll 15s linear infinite; /* Adjust the duration as needed */
 }
 
+.scrolling-content:hover {
+  animation: scroll 0s linear infinite;
+}
+
 .image-container {
   flex: 0 0 24%; 
   position: relative;
   overflow: hidden;
 }
 .image-container:hover {
- 
   opacity: 0.6;
 }
 .insta-pic {

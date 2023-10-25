@@ -4,34 +4,28 @@ import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const path = usePathname();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    setIsSubMenuOpen(false)
+  };
+  const toggleMenu1 = () => {
+    setIsMenuOpen(false);
+    
+  };
+  const toggleMenu2 = () => {
+    setIsMenuOpen(false);
+    setIsSubMenuOpen(false);
   };
 
-  function getChColor(str) {
-    let color = [
-      "#C70039",
-      "#EE9322",
-      "#F4E869",
-      "#E55604",
-      "#D80032",
-      "#FF3FA4",
-      "#337CCF",
-    ];
-    let chArr = str.split("").map((ch, ind) => {
-      return {
-        ch: ch,
-        color: color[ind],
-      };
-    });
-
-    return chArr;
-  }
+  
 
   return (
     <nav className={styles.navbar}>
@@ -48,17 +42,52 @@ const Navbar = () => {
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
       </div>
-      <ul className={`${styles.navLinks} ${isMenuOpen ? styles.show : ""}`}>
-        <li className={path === "/" ? styles.active : ""}>
+      <ul className={`${styles.navLinks} ${isMenuOpen ? styles.show : ""}`}
+       
+      >
+        <li className={path === "/" ? styles.active : ""} onClick={toggleMenu1}>
           <Link href="/">Home</Link>
         </li>
-        <li className={path === "/courses" ? styles.active : ""}>
-          <Link href="/courses">Courses</Link>
-        </li>
-        <li className={path === "/schedule" ? styles.active : ""}>
+        <div id={styles.courseId}>
+          <div 
+            className={styles.courseLink}
+            onClick={()=>{
+              setIsSubMenuOpen(!isSubMenuOpen)
+            }}
+          >
+          <li className={path === "/courses" ? styles.active : ""}
+            
+          >
+            Courses
+          </li>{
+            isSubMenuOpen ? <ArrowDropUpIcon />:<ArrowDropDownIcon />
+          }</div>
+          
+          {
+            isSubMenuOpen && (
+              <div id={styles.subMenuItem}
+              
+              >
+                <li onClick={toggleMenu2}>
+                  <Link href="/courses/yin-yoga">Yin Yoga</Link></li>
+                <li>
+                  <Link href="/courses/prenatal-yoga">Prenatal Yoga</Link></li>
+                <li onClick={toggleMenu2}>
+                  <Link href="/courses/ashtanga-yoga">Ashtanga Yoga</Link></li>
+                <li onClick={toggleMenu2}>
+                  <Link href="/courses/hatha-yoga">Hatha Yoga</Link></li>
+                <li onClick={toggleMenu2}>
+                  <Link href="/courses/nutrition">Nutrition Course</Link></li>
+                <li onClick={toggleMenu2}>
+                  <Link href="/courses">All Courses</Link></li>
+              </div>
+            )
+          }
+        </div>
+        <li className={path === "/schedule" ? styles.active : ""} onClick={toggleMenu1}>
           <Link href="/schedule">Class Schedule</Link>
         </li>
-        <li className={path === "/blog" ? styles.active : ""}>
+        <li className={path === "/blog" ? styles.active : ""} onClick={toggleMenu1}>
           <Link href="/blog">Blog</Link>
         </li>
       </ul>

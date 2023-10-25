@@ -9,8 +9,8 @@ export default function About() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        
-        height:'500px',
+        height:'550px',
+        maxHeight:'600px'
         
       };
   return (
