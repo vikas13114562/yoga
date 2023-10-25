@@ -16,10 +16,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
     setIsSubMenuOpen(false)
   };
-  const toggleMenu1 = () => {
-    setIsMenuOpen(false);
-    
-  };
+  
   const toggleMenu2 = () => {
     setIsMenuOpen(false);
     setIsSubMenuOpen(false);
@@ -45,7 +42,7 @@ const Navbar = () => {
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.show : ""}`}
        
       >
-        <li className={path === "/" ? styles.active : ""} onClick={toggleMenu1}>
+        <li className={path === "/" ? styles.active : ""} onClick={toggleMenu2}>
           <Link href="/">Home</Link>
         </li>
         <div id={styles.courseId}>
@@ -84,10 +81,10 @@ const Navbar = () => {
             )
           }
         </div>
-        <li className={path === "/schedule" ? styles.active : ""} onClick={toggleMenu1}>
+        <li className={path === "/schedule" ? styles.active : ""} onClick={toggleMenu2}>
           <Link href="/schedule">Class Schedule</Link>
         </li>
-        <li className={path === "/blog" ? styles.active : ""} onClick={toggleMenu1}>
+        <li className={path === "/blog" ? styles.active : ""} onClick={toggleMenu2}>
           <Link href="/blog">Blog</Link>
         </li>
       </ul>
