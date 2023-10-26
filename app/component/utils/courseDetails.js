@@ -4,9 +4,9 @@ import { Btn } from './Allbtn'
 import Border from './Border'
 import styles from './Course.module.css'
 import { useRouter } from 'next/navigation'
-export default function CoursesDetails({data,index}) {
+export default function CoursesDetails({data,index,isBtnShow}) {
     const router = useRouter()
-
+   
     function handleClick(path) {
         router.push(`/courses/${path}`)
     }
@@ -14,12 +14,12 @@ export default function CoursesDetails({data,index}) {
         <Border />
         <div className={styles.container}
             style={{
-                flexDirection:data[index].direction
+                flexDirection:data[index]?.direction
             }}
         >
             <div className={styles.detailText}>
                 <div className={styles.heading}>
-                    {data[index].heading}
+                    {data[index]?.heading}
                 </div>
                 <div className={styles.details}>
                 {data[index].text.map((para,ind)=>{
@@ -27,13 +27,16 @@ export default function CoursesDetails({data,index}) {
                         <p key={ind}>{para}</p>
                     )
                 })}
-                <Btn name={'Learn More'} onClick = {()=>{
-                    handleClick(data[index].path)
-                }} />
+                {
+                    isBtnShow ? <Btn name={'Learn More'} onClick = {()=>{
+                        handleClick(data[index]?.path)
+                    }} />:""
+                }
+                
                 </div>
             </div>
             <div className={styles.imgContainer}>
-            <img className={styles.image} src={data[index].imgUrl} alt="Image" />
+            <img className={styles.image} src={data[index]?.imgUrl} alt="Image" />
             </div>
         </div>
         </> )

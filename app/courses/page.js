@@ -15,6 +15,7 @@ export default function Page() {
                 <CoursesDetails key={ele}
                     data = {courseData}
                     index = {ele}
+                    isBtnShow={true}
                 />
             ))
         }
