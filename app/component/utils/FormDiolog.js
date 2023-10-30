@@ -79,7 +79,7 @@ export default function FormDialog({text,variant}) {
   return (
     <div >
       {
-        text ? <Button variant="contained" className={style.member} onClick={handleClickOpen}>
+        text ? <Button variant={variant ? variant :"contained"} className={style.member} onClick={handleClickOpen}>
           {text}
       </Button>:<Button className={style.member} onClick={handleClickOpen}
         variant={variant ? variant :"contained"}

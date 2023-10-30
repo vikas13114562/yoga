@@ -9,9 +9,7 @@ import InfoIcon from '@mui/icons-material/Info';
 export default function ImagesList({itemData}) {
   return (
     <ImageList sx={{ width: "100%", height: 450,m:'20px 0px' }}>
-      <ImageListItem key="Subheader" cols={2}>
-        
-      </ImageListItem>
+      
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img

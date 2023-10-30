@@ -67,24 +67,25 @@ export const blogData = {
 
         ]
       },
-      {
-        mainHeading:"YIN YOGA AND MERIDIAN THEORY",
-        aboutMainHeading:'I prefer to use Meridian theory as one simple approach to comprehend how Yin yoga and the poses we choose to practice might affect us because there are so many different ways to sequence a Yin yoga session. Certain yoga positions are used in Chinese medicine to target particular meridian lines by compressing or tensing them. Meridian theory-based Yin Yoga is largely practiced for organ health since this has an impact on the connected organ.',
-        subHeading:'The Meridians and Yin Yoga Poses For Particular Organs Are',
-        subHeadingItems:[
-            "Yin Yoga poses for Kidney/Urinary Bladder meridian: Butterfly, Caterpillar, Child's pose, Dangling, Dragon, Dragonfly, Reclined Twist, Saddle, Seal, Snail Square, Squat and Swan.",
-            "Yin Yoga poses to work on the Stomach/Spleen meridian: Ankle stretch, Child's pose, Dragon, Dragonfly, Melting Heart, Saddle and Swan.",
-            "Yin Yoga poses for Liver/Gall bladder meridian: Ankle stretch, Bananasana, Butterfly, Dragon, Dragonfly, Frog, Seal, Shoelace, Square and Swan.",
-            "Yin Yoga poses for the Heart/Small intestine meridian: Bananasana, Melting heart and Reclined Twist and Hug the Earth.",
-            "Yin Yoga poses for the Lungs/Large Intestines meridian: Bananasana, Melting heart, Supported Fish and Reclined Twist.",
+      // {
+      //   mainHeading:"YIN YOGA AND MERIDIAN THEORY",
+      //   aboutMainHeading:'I prefer to use Meridian theory as one simple approach to comprehend how Yin yoga and the poses we choose to practice might affect us because there are so many different ways to sequence a Yin yoga session. Certain yoga positions are used in Chinese medicine to target particular meridian lines by compressing or tensing them. Meridian theory-based Yin Yoga is largely practiced for organ health since this has an impact on the connected organ.',
+      //   subHeading:'The Meridians and Yin Yoga Poses For Particular Organs Are',
+      //   subHeadingItems:[
+      //       "Yin Yoga poses for Kidney/Urinary Bladder meridian: Butterfly, Caterpillar, Child's pose, Dangling, Dragon, Dragonfly, Reclined Twist, Saddle, Seal, Snail Square, Squat and Swan.",
+      //       "Yin Yoga poses to work on the Stomach/Spleen meridian: Ankle stretch, Child's pose, Dragon, Dragonfly, Melting Heart, Saddle and Swan.",
+      //       "Yin Yoga poses for Liver/Gall bladder meridian: Ankle stretch, Bananasana, Butterfly, Dragon, Dragonfly, Frog, Seal, Shoelace, Square and Swan.",
+      //       "Yin Yoga poses for the Heart/Small intestine meridian: Bananasana, Melting heart and Reclined Twist and Hug the Earth.",
+      //       "Yin Yoga poses for the Lungs/Large Intestines meridian: Bananasana, Melting heart, Supported Fish and Reclined Twist.",
 
-        ]
-      },
-      {
-        mainHeading:'WHAT SHOULD WE PAY ATTENTION TO WHILE PERFORMING YIN YOGA ?',
-        aboutMainHeading:"Try to maintain as much stillness as you can while performing the poses. Avoid twitching. The idea is to give your body and mind some space to unwind. Thoughts are good, but it’s best to pay attention to your body’s breathing sensations and the area where you feel the stretch strongly. Your muscles will start to relax a little more if you focus your breathing on that area. Instead of thinking of yin yoga as “stretching”, think of “releasing tension” in the muscle will be more beneficial because this better captures the passive aspect of the practice.",
+      //   ]
+      // },
+      // {
+      //   mainHeading:'WHAT SHOULD WE PAY ATTENTION TO WHILE PERFORMING YIN YOGA ?',
+      //   aboutMainHeading:"Try to maintain as much stillness as you can while performing the poses. Avoid twitching. The idea is to give your body and mind some space to unwind. Thoughts are good, but it’s best to pay attention to your body’s breathing sensations and the area where you feel the stretch strongly. Your muscles will start to relax a little more if you focus your breathing on that area. Instead of thinking of yin yoga as “stretching”, think of “releasing tension” in the muscle will be more beneficial because this better captures the passive aspect of the practice.",
 
-      },{
+      // },
+      {
         mainHeading:'WHAT TIME OF DAY IS IDEAL FOR YIN YOGA?',
         aboutMainHeading:'Right before going to sleep is the ideal  time to perform yin yoga.'
       }

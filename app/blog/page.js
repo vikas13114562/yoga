@@ -17,13 +17,13 @@ const Page = () => {
           {
             mainBlogData.map((ele)=>{
               return (
-                <ListItem key={ele.index} onClick={()=>{
+                <ListItem   key={ele.index} onClick={()=>{
                   handleClick(ele.index)
                 }}>
                   <ListItemIcon sx={{ color: "rgb(185,65,105)" }}>
                     <SelfImprovementIcon />
                   </ListItemIcon>
-                  <ListItemText sx={{fontSize:'1.5rem'}} primary={ele.title} />
+                  <ListItemText style={{fontSize:'2rem'}}  primary={ele.title} />
                 </ListItem>
               )
             })
