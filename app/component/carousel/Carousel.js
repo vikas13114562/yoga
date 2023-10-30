@@ -46,7 +46,8 @@ const Carousel = () => {
     height: "400px", // Adjust the height as needed
   };
 
-  return (
+  return (<>
+    <div style={{height:'65px'}}></div>
     <div className="container1" style={divStyle}>
       <div className="quote-container">
         <div>{quote[currentSlide - 1].text}</div>
@@ -71,7 +72,7 @@ const Carousel = () => {
         ></div>
       </div>
     </div>
-  );
+    </>);
 };
 
 export default Carousel;

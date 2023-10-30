@@ -56,10 +56,10 @@
 
 .accordionContainer {
     display: flex;
-    
+    padding: 0% 8% !important;
     flex-direction: column;
-    padding: 10px;
-    margin: 40px 0px 40px 0px;   
+   
+    margin: 20px 0px 40px 0px;   
 }
 
 .formDialogContainer {

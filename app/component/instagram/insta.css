@@ -38,10 +38,10 @@
 .image-container:hover {
   opacity: 0.6;
 }
-.insta-pic {
+/* .insta-pic {
   border-radius: 4px;
   border: 0.25px solid black;
-}
+} */
 
 @keyframes scroll {
   0% {

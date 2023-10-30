@@ -66,6 +66,8 @@ const Navbar = () => {
               
               >
                 <li onClick={toggleMenu2}>
+                  <Link href="/courses">All Courses</Link></li>
+                <li onClick={toggleMenu2}>
                   <Link href="/courses/yin-yoga">Yin Yoga</Link></li>
                 <li onClick={toggleMenu2}>
                   <Link href="/courses/prenatal-yoga">Prenatal Yoga</Link></li>
@@ -75,8 +77,7 @@ const Navbar = () => {
                   <Link href="/courses/hatha-yoga">Hatha Yoga</Link></li>
                 <li onClick={toggleMenu2}>
                   <Link href="/courses/nutrition">Nutrition Course</Link></li>
-                <li onClick={toggleMenu2}>
-                  <Link href="/courses">All Courses</Link></li>
+                
               </div>
             )
           }

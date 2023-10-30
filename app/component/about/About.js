@@ -5,7 +5,7 @@ import "./about.css";
 export default function About() {
 
     const picStyle = {
-        backgroundImage: `url('profile.jpg')`,
+        backgroundImage: `url('profilePic.jpg')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

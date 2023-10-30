@@ -4,7 +4,6 @@ import { Paper } from "@mui/material";
 import Helper from "./Helper";
 import FormDialog from "../utils/FormDiolog";
 import ImagesList from "./ImagesList";
-import { Btn } from "../utils/Allbtn";
 import Link from "next/link";
 
 const BlogPost = ({ data }) => {
