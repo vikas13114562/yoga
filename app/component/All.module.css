@@ -77,4 +77,19 @@
     max-width: 100%;
     height: auto;
   }
+
+  .blogContainer {
+   
+    padding: 20px;
+   
+  }
+  .blogContainer div {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #E5D283;
+  }
+  .blogContainer div:hover{
+    cursor: pointer;
+    color:rgb(185,65,105);
+  }
   

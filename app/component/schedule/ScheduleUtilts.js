@@ -15,8 +15,7 @@ export default function ScheduleUtilts(props) {
                 <div className="time">{props.time}</div>
                 <div className="category">{props.category}</div>
               </div>
-              <FormDialog />
-              {/* <div className="member">Become a Member!</div> */}
+              <FormDialog variant={'text'} />
             </div>
             <div className="day">{props.day}</div>
           </>

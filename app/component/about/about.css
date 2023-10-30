@@ -20,10 +20,20 @@
     border: 1.5px solid #E5D283;
     width: 70%;
     position: absolute;
-    top: 24%;
+    top: 15%;
     left: 36%;
     border-radius: 5px;
 }
+
+@media only screen and (min-width: 1320px) {
+    .text-container{
+        width: 65%;
+        top: 25%;
+    }
+    .p-container{
+        font-size: 20px;
+    }
+  }
 .about-container {
     display: flex;
     width: 99%;

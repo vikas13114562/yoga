@@ -22,7 +22,8 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-export default function FormDialog({text}) {
+export default function FormDialog({text,variant}) {
+  
   const [open, setOpen] = React.useState(false);
   const [error,setError] = React.useState(null)
 
@@ -80,7 +81,12 @@ export default function FormDialog({text}) {
       {
         text ? <Button variant="contained" className={style.member} onClick={handleClickOpen}>
           {text}
-      </Button>:<Button className={style.member} onClick={handleClickOpen}>
+      </Button>:<Button className={style.member} onClick={handleClickOpen}
+        variant={variant ? variant :"contained"}
+        style={{
+          backgroundColor:!variant ? "#1976d2 !important;":""
+        }}
+      >
         Become a Member!
       </Button>
       }
