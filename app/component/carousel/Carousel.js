@@ -41,7 +41,6 @@ const Carousel = () => {
     backgroundImage: `url('/caroselImg/carousel0${currentSlide}.jpg')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
     width: "100%",
     height: "400px", // Adjust the height as needed
   };

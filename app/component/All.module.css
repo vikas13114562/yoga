@@ -11,6 +11,13 @@
     background-color: white;
 }
 
+.formBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
 .allBtn {
     width: 120px;
     height: 40px;
@@ -91,5 +98,15 @@
   .blogContainer div:hover{
     cursor: pointer;
     color:rgb(185,65,105);
+  }
+
+  @media only screen and (max-width: 450px) {
+    .formBtn{
+      justify-content: start;
+    }
+    .customP{
+      padding: 20px !important;
+    }
+    
   }
   
