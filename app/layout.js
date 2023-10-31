@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={josefin.className}>
         <NextTopLoader
-          color="#E5D283"
+          color="green"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}

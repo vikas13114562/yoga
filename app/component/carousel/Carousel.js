@@ -8,23 +8,23 @@ const Carousel = () => {
   const quote = [
     {
       id: 1,
-      text: "Yoga is the art of aligning body, mind, and spirit; a path to inner peace and radiant health.",
-      author: "T.K.V. Desikachar",
+      text: "Yoga leads to identifying the self in the most glorious way.",
+      author: "",
     },
     {
       id: 2,
-      text: "Yoga is the journey of the self, through the self, to the self.",
-      author: "The Bhagavad Gita",
+      text: "Yoga is a practice of the self, through the self and for the self.",
+      author: "",
     },
     {
       id: 3,
-      text: "The nature of yoga is to shine the light of awareness into the darkest corners of the body.",
-      author: "Jason Crandell",
+      text: "Yoga heals mind, body and soul altogether.",
+      author: "",
     },
     {
       id: 4,
-      text: "Yoga is not about touching your toes, it's about what you learn on the way down.",
-      author: "Jigar Gor",
+      text: "Yog... The power to build the body, calm the mind and strengthen the soul.",
+      author: "",
     },
   ];
 

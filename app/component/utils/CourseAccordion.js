@@ -25,7 +25,7 @@ export default function CourseAccordion({data}) {
             sx={{
               fontWeight:500,
               fontSize:'1.15rem',
-              color:'#E5D283',
+              color:'#cfcb62',
               '&:hover':{
                 color:'rgb(185,65,105)'
               }

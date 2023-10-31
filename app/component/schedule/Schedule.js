@@ -24,7 +24,7 @@ export default function Schedule() {
           />
         );
       })}
-      <div className="schedule-main">
+      {/* <div className="schedule-main">
       <div className="contain">
               <div className="time-category">
                 <div className="time">Off</div>
@@ -33,7 +33,7 @@ export default function Schedule() {
 
             </div>
             <div className="day">Sunday</div>
-      </div>
+      </div> */}
     </div>
   );
 }
