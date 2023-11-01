@@ -6,7 +6,7 @@ export const blogData = {
     imageArray:[
       {
         img: '/blog/01/01.jpg',
-        title: 'Supta eka pada utkatasana',
+        title: 'Pigeon Pose',
         author: '',
         rows: 2,
         cols: 2,
@@ -14,7 +14,7 @@ export const blogData = {
       },
       {
         img: '/blog/01/02.jpg',
-        title: 'Matasyasna',
+        title: 'Warrior-II',
         author: '',
       },
       {
