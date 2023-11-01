@@ -39,9 +39,11 @@ const Navbar = () => {
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
       </div>
+      
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.show : ""}`}
        
       >
+        
         <li className={path === "/" ? styles.active : ""} onClick={toggleMenu2}>
           <Link href="/">Home</Link>
         </li>
