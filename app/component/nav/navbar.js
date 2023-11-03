@@ -79,7 +79,8 @@ const Navbar = () => {
                   <Link href="/courses/hatha-yoga">Hatha Yoga</Link></li>
                 <li onClick={toggleMenu2}>
                   <Link href="/courses/nutrition">Nutrition Course</Link></li>
-                
+                  <li onClick={toggleMenu2}>
+                  <Link href="/courses/yog-anatomy-yoga">Yog Anatomy Course</Link></li>
               </div>
             )
           }

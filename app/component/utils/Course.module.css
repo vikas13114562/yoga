@@ -90,14 +90,12 @@
 
 @media only screen and (max-width: 800px) {
     .detailText{
-       
         gap: 15px;
         width: 100%;
-        
-    
     }
     .imgContainer{
-        display: none;
+        padding: 20px;
+        width: 100%;
     }
     .list{
         max-width: 95%;
@@ -105,5 +103,9 @@
     .nestedList {
         width:95%;
       }
+    .container{
+        flex-direction: column !important;
+        gap: 0px;
+    }
     
   }

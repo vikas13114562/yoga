@@ -16,6 +16,7 @@ export default function Page({ params }) {
       "ashtanga-yoga":2,
       "hatha-yoga":3,
       "nutrition":4,
+      "yog-anatomy-yoga":5,
     }
    
     return <div className={style.mainContainer}>

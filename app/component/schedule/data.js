@@ -90,6 +90,16 @@ export const courseData = {
     direction: "row",
     path: "nutrition",
   },
+  5: {
+    heading: "Yog Anatomy",
+    text: [
+      "Yog Anatomy is a comprehensive study that combines the principles of yoga with the understanding of the human body's physical and energetic aspects. This discipline delves into the anatomical components of yoga practice, including the precise alignment of postures, the engagement of muscles, and the mechanics of breath control. By mastering Yog Anatomy, practitioners can enhance their yoga practice, reduce the risk of injuries, and gain a deeper insight into the interconnectedness of the body and mind. Instructors use this knowledge to provide accurate guidance and adjustments, while healthcare professionals may integrate it into patient care for improved well-being.",
+      "The study of Yog Anatomy also extends beyond Western anatomical concepts, exploring traditional yoga philosophies like energy channels, chakras, and the subtle body. These elements emphasize the holistic nature of yoga, with a focus on promoting mental, emotional, and spiritual wellness alongside physical health. Overall, Yog Anatomy is a valuable tool for anyone seeking a more profound and balanced yoga practice and a deeper connection with themselves.",
+    ],
+    imgUrl: "/courses/yin.jpg",
+    direction: "row-reverse",
+    path: "yog-anatomy-yoga",
+  },
 };
 
 export const courseDetailsData = {
@@ -327,6 +337,23 @@ export const courseDetailsData = {
      
     ],
     isApply:true,
+  },
+  "yog-anatomy-yoga": {
+    mainHeading: "Yog Anatomy Course",
+    heading: [
+      { title: "PIntroduction to Body and Its Structure" },
+      { title: "Body Planes" },
+      { title: "Anatomical Movements" },
+      { title: "Bones of the Skull" },
+      { title: "Cervical Vertebrae" },
+      { title: "Shoulder Girdle/ Arm Bones/ Pelvic Region" },
+      { title: "Deformities of the Spine" },
+      { title: "Lower Extremity" },
+      { title: "Tendons and Ligaments" },
+      { title: "Muscular System" },
+      { title: "Nervous System" },
+      { title: "Respiratory System" },
+    ],
   },
 };
 

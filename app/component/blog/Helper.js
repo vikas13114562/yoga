@@ -7,7 +7,8 @@ import {
   Typography,
 } from "@mui/material";
 
-export default function Helper({ dataEle }) {
+
+export default function Helper({ dataEle}) {
   return (
     <>
       {dataEle?.mainHeading ? (
@@ -24,6 +25,7 @@ export default function Helper({ dataEle }) {
       ) : (
         ""
       )}
+      
 
       {dataEle?.subHeading ? (
         <>

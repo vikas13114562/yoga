@@ -10,7 +10,7 @@ const BlogPost = ({ data }) => {
   return (
     <Paper className={`px-16 py-5 ${style.customP}`}>
       {data.blogText.map((ele, ind) => {
-        return <Helper key={ind} dataEle={ele} />;
+        return <Helper key={ind} dataEle={ele}  />;
       })}
       {
         data.blogLink && (<div className={style.allBtn} style={{width:'130px',color:'aqua'}}>

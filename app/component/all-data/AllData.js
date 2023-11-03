@@ -91,11 +91,82 @@ export const blogData = {
       }
     ],
   },
+  2: {
+    mainPhoto:'/hatha.jpg',
+    imageHeading: "",
+    blogLink:"https://sites.google.com/view/sarvyognetifyapp/home",
+    imageArray:[
+      {
+        img: '/blog/01/01.jpg',
+        title: 'Pigeon Pose',
+        author: '',
+        rows: 2,
+        cols: 2,
+        
+      },
+      {
+        img: '/blog/01/02.jpg',
+        title: 'Warrior-II',
+        author: '',
+      },
+      {
+        img: '/blog/01/03.jpg',
+        title: 'Supta eka pada utkatasana',
+        author: '',
+      },
+      {
+        img: '/blog/01/04.jpg',
+        title: 'Matasyasna',
+        author: '',
+      },
+      
+     
+    ],
+    blogText: [
+      {
+        mainHeading: "CHAIR YOGA",
+        aboutMainHeading:
+          "A moderate variation of hatha yoga being performed in a sitting position on a chair is known as chair yoga. It is designed for students who are unable to participate in a regular yoga class because of certain reasons and thus comprise variations for standard hatha yoga poses.\nThe unique body type of every person makes it occasionally difficult for them to perform some specific yoga postures. To practice yoga properly, we must use several yoga props; chairs are one of them. Chair yoga can be just as tough as yoga on a mat, but there are times when it can be quite beneficial to execute challenging postures with ease. Not only it eases yoga for beginners, chair yoga offers a variety of poses that keep classes interesting for experienced practitioners as well. Additionally, a few seated yoga postures can improve circulation, strength and mental clarity.\nYin yoga teaches us how to examine and let go of the accumulated emotions and trauma through releasing feelings and sensations that come in “sitting still” pose for an extended period of time. This method is more meditative than conventional hatha yoga practices.\nUsing a chair in yoga can make certain parts of a pose easier. For instance, in Tree Pose (Vrikshasana), a chair can assist in stabilizing the body and reducing effort in maintaining the balance. Sitting on a chair enables a practitioner to hold the stance for a longer period of time and accentuate certain parts of it. This is how one can concentrate on correct body alignment and using the right muscles.",
+        subHeading: "ENERGIZING CHAIR YOGA IS DONE BY WHO?",
+        subHeadingItems: [
+          "Having any kind of mobility limitations.",
+          "Have had any kind of knee surgery.",
+          "Struggling with balance.",
+          "Need chair assistance to master their yoga poses.",
+          "Prenatal women in their third trimester.",
+          "Having chronic pain.",
+          "Having symptoms of hypertension, anxiety, arthritis, carpal tunnel syndrome or clinical depression.",
+          "Office workers who have to wear business attire in their workplace and have no time for yoga; must practice chair yoga in between working hours to counter certain spine-related health issues."
+        ],
+      },
+      {
+        mainHeading:'WHICH TYPE OF CHAIR SHOULD WE USE?',
+        aboutMainHeading:'Any sturdy chair will work best, but folded metal chairs or basic wooden dining chairs are widely used for yoga purposes. Yoga-specific chairs aren’t required because there are various ways to use a chair with back support. However, yoga chairs without back support allow us to perform more poses with our legs through the chair. Always select a chair that is appropriate for a person’s height and weight; if a person is tall and muscular, they should always choose a high-quality chair. Before using a chair, always check whether it is damaged/broken as damaged/broken chairs might cause injury. Therefore, by considering all these points, a yoga practitioner can prevent himself from serious injury.'
+      },
+      {
+        subHeading:'WHAT SAFETY MEASURES SHOULD WE TAKE WHEN DOING CHAIR YOGA?',
+        subHeadingItems:[
+          "Breathe; doing so while moving encourages joints to relax.",
+          "Position yourself upright.",
+          "Your knee should be over your ankle.",
+          "Keep your feet flat on the floor.",
+          "Stay away from jerking or bouncing.",
+
+        ]
+      },
+  
+      
+    ],
+  },
 };
 
 export const mainBlogData= [
   {
     title:"Yin Yoga",
     index:'1'
+  },
+  {
+    title:"Chair Yoga",
+    index:'2'
   }
 ]
