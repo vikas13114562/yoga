@@ -2,7 +2,7 @@ import Border from "../utils/Border";
 import Heading from "../utils/Heading";
 import "./about.css";
 
-export default function About() {
+export default function About(props) {
   const picStyle = {
     backgroundImage: `url('profilePic.jpg')`,
     backgroundSize: "cover",
@@ -18,7 +18,7 @@ export default function About() {
       <div className="about-container">
         <div className="pic-container" style={picStyle}></div>
         <div className="text-container">
-          <div id="name" className="dfc">
+          <div id="name" className="dfc" style={{color:"rgba(255, 200, 131, 1)"}}>
             Aishwarya Upadhyay
           </div>
           <div className="p-container">

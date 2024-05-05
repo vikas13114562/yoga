@@ -14,7 +14,7 @@ const BlogPost = ({ data }) => {
       })}
       {
         data.blogLink && (<div className={style.allBtn} style={{width:'130px',color:'aqua'}}>
-          <Link href={data.blogLink} target="_blank">Lear More..</Link>
+          <Link href={data.blogLink} target="_blank">learn More..</Link>
           </div>)
       }
       <div className={style.formBtn}
